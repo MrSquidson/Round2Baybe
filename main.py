@@ -1,16 +1,11 @@
-# This is a sample Python script.
+#Læg to bruger bestemte værdier sammen
+navnet = input("Skriv dit navn")
+print('Hej', navnet)
+print('Jeg er et program der skal hjælpe dig med at lægge 2 tal sammen... Er du klar?')
+tal1 = int(input("Skriv dit første tal"))
+print('Dit første tal er:', tal1)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+tal2 = int(input('Skriv dit andet tal'))
+print('Dit andet tal er', tal2)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print('Din samlede værdi mellem de to tal er', tal1 + tal2)
