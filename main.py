@@ -26,5 +26,15 @@ except:
 
 print('Dit andet tal er', tal2)
 
-#Lægger de 2 tal der er indsamlet i int strings sammen
-print('Din samlede værdi mellem de to tal er', tal1 + tal2)
+resultat = tal1 + tal2
+
+#skaber en string der vil fortælle os om tallet er lige el. ulige
+ligeEllerUlige = 'ikke bestemt'
+#Tjekker om tallet er lige eller ulige
+if (resultat % 2) == 0:
+    ligeEllerUlige = 'lige'
+else:
+    ligeEllerUlige = 'ulige'
+
+#Lægger de 2 tal der er indsamlet i int strings sammen og viser om tallet er lige el. ulige på samme linje
+print('Din samlede værdi mellem de to tal er', resultat, 'resultatet er et', ligeEllerUlige, 'tal')
