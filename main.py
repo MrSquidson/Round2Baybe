@@ -1,5 +1,5 @@
 # Opgave Læg to bruger bestemte værdier sammen
-# Importere textwrap
+# Importere textwraps
 import textwrap
 
 # Beder brugeren om deres navn for en mere personlig **Experience**
