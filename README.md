@@ -7,4 +7,4 @@
 The script requires 2 modules that I've downloaded through PyCharm
 - Colorama
 - textwrap
-For further info please see the wiki page (../about/modules)
+  For further info please see the wiki page (../about/modules)
