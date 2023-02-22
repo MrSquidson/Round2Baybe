@@ -9,3 +9,6 @@ The script requires 2 modules that I've downloaded through PyCharm
 - textwrap
 
 For further info please see the wiki page (../about/modules)
+
+# Trello
+Planned changes aswell as issues that are currently being fixed can be tracked [here](https://trello.com/b/KzfqKFSZ/issues-suggestions)
